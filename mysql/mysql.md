@@ -33,7 +33,7 @@ delete from tablename where id=1;
 4.修改表数据
 
 ```
-update set 字段名=值 where id=1;
+update 表名 set 字段名=值 where id=1;
 ```
 
 5.查询数据
