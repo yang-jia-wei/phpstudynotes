@@ -33,7 +33,7 @@ delete from tablename where id=1;
 4.修改表数据
 
 ```
-update 表名 set 字段名=值 where id=1;
+update 表名 set 字段名1=值1,字段名2=值2 where id=1;
 ```
 
 5.查询数据
@@ -48,3 +48,13 @@ select * from tablename where 字段名=值；
 INSERT INTO 表名 （字段名1，字段名2，...）
         VALUES(值1，值2，...);
 ```
+
+7.删除数据表
+
+```
+drop table user;
+```
+
+
+
+
